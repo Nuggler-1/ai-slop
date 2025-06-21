@@ -28,7 +28,7 @@ class Runner:
             self.nous_accounts = f.read().splitlines()
         with open(PROXY_FILE_PATH, "r", encoding="utf-8") as f:
             proxies = f.read().splitlines()
-        if max(len(self.hyperbolic_accounts), len(self.nous_accounts)) < len(proxies):
+        if max(len(self.hyperbolic_accounts), len(self.nous_accounts)) > len(proxies):
             logger.error(f"Not enough proxies. Please add at least {max(len(self.hyperbolic_accounts), len(self.nous_accounts))} proxies")
             sys.exit(1)
         
