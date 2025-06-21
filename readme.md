@@ -14,7 +14,7 @@
 
 В папке `user_files` заполни файлы `nous_api.txt`, `hyperbolic_api.txt`, `proxies.txt` 
 
-*прокси в формате user:pass@ip:port или http://user:pass@ip:port* 
+*прокси в формате user:pass@ip:port или http:// user:pass@ip:port* 
 
 Заходишь в конфиг и смотришь все настройки, дальше про них расписано.
 
